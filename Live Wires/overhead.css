@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(245, 245, 220);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    font-size: 15px;
+}
+
+.logo{
+    font-size: 2em;
+    pointer-events: none;
+    margin-right: 300;
+    color: black;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 6px 15px ;
+    border-radius: 20px;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(227, 82, 82);
+}
+
